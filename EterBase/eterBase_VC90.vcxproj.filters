@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Poly">
+      <UniqueIdentifier>{6bf2dcdf-8b9e-456e-812a-409bf0966dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{f9d93f3e-2bb0-4154-a3b6-9d7c0afbdad7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="poly\Base.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="poly\Poly.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="poly\Symbol.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="poly\SymTable.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="cipher.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="CPostIt.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FileBase.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDir.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="lzo.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="MappedFile.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Stl.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="tea.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TempFile.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="poly\Base.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="poly\Poly.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="poly\Symbol.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="poly\SymTable.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="cipher.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="CPostIt.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FileBase.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDir.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Filename.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="MappedFile.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceDefs.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Stl.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="tea.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="TempFile.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="vk.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

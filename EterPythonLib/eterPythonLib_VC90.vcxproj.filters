@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{82bcc735-e091-4257-afce-1bfe775ad364}</UniqueIdentifier>
+      <Extensions>*.cpp;*.h;</Extensions>
+    </Filter>
+    <Filter Include="Graphic Files">
+      <UniqueIdentifier>{0438c2b8-a519-46af-97ae-02012b156c92}</UniqueIdentifier>
+      <Extensions>*.cpp; *.h;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PythonGridSlotWindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonSlotWindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonWindow.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonWindowManager.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonWindowManagerModule.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonGraphic.cpp">
+      <Filter>Graphic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonGraphicImageModule.cpp">
+      <Filter>Graphic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonGraphicModule.cpp">
+      <Filter>Graphic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonGraphicTextModule.cpp">
+      <Filter>Graphic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonGraphicThingModule.cpp">
+      <Filter>Graphic Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PythonGridSlotWindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonSlotWindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonWindow.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonWindowManager.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonGraphic.h">
+      <Filter>Graphic Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+</Project>
